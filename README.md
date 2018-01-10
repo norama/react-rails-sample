@@ -17,7 +17,7 @@ CSS files should be put under `app/javascript/packs` and included in slim html t
 = stylesheet_pack_tag 'hello'
 ```
 
-* Installation
+## Installation
 
 * `bundle install --path=./.bundle`
 * `yarn install`
