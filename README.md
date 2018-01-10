@@ -1,24 +1,28 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Sample project for rails with react.
+Clone this and use as initial version of your project.
 
-Things you may want to cover:
+## IMPORTANT
 
-* Ruby version
+React components should be put under `app/javascript/components` and added in slim html templates as  
 
-* System dependencies
+```
+== react_component 'Hello', name: 'Valiera'
+```
 
-* Configuration
+CSS files should be put under `app/javascript/packs` and included in slim html templates as
 
-* Database creation
+```
+= stylesheet_pack_tag 'hello'
+```
 
-* Database initialization
+* Installation
 
-* How to run the test suite
+* `bundle install --path=./.bundle`
+* `yarn install`
 
-* Services (job queues, cache servers, search engines, etc.)
+## Running the application
 
-* Deployment instructions
-
-* ...
+* `bundle exec rails s`
+* Open page `http://localhost:3000/hello` in browser.
