@@ -1,6 +1,7 @@
 # README
 
-Sample project for rails with react.
+Sample project for rails with react, using [rails webpacker](https://github.com/rails/webpacker) and [react-rails](https://github.com/reactjs/react-rails).
+
 Clone this and use as initial version of your project.
 
 ## IMPORTANT
