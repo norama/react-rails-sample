@@ -35,4 +35,4 @@ because imported styles will be compiled into `application.css` by webpacker.
 ## Running the application
 
 * `bundle exec rails s`
-* Open page `http://localhost:3000/hello` in browser.
+* Open page [http://localhost:3000/hello](http://localhost:3000/hello) in browser.
