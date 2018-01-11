@@ -15,4 +15,4 @@ var ReactRailsUJS = require("react_ujs")
 ReactRailsUJS.useContext(componentRequireContext)
 
 import '../stylesheets/main.sass'
-import '../stylesheets/hello.sass'
+import '../stylesheets/hello.css'
