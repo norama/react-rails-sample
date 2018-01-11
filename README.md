@@ -11,11 +11,20 @@ React components should be put under `app/javascript/components` and added in sl
 == react_component 'Hello', name: 'Valiera'
 ```
 
-CSS files should be put under `app/javascript/packs` and included in slim html templates as
+CSS files should be imported from `app/javascript/packs/application.js` as:
 
 ```
-= stylesheet_pack_tag 'hello'
+import '../stylesheets/main.sass'
+import '../stylesheets/hello.css'
 ```
+
+and included in slim html templates as
+
+```
+= stylesheet_pack_tag 'application'
+```
+
+because imported styles will be compiled into `application.css` by webpacker.
 
 ## Installation
 
